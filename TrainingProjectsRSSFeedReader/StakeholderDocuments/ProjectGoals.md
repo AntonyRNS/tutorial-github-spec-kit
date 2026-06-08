@@ -2,6 +2,8 @@
 
 Build a simple RSS/Atom feed reader. The goal is to demonstrate the most basic capability (managing a subscription list) without the complexity of fetching and displaying feed content.
 
+This MVP RSS reader is a simple demonstration app focused on adding subscriptions only, not a production-ready feed reader.
+
 ## Purpose
 
 The app exists to demonstrate how a user can build a subscription list for RSS feeds. This is a proof-of-concept focused on the subscription management UI.
