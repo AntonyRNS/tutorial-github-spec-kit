@@ -192,6 +192,21 @@ When ready to extend beyond the basic demonstration, this architecture supports:
 - **Testing**: Add unit and integration tests using xUnit
 - **Optimization**: Implement HTTP caching (ETag/Last-Modified), de-duplication, and performance improvements
 
+## Implementation plan
+
+- Phase 1: establish the MVP with an ASP.NET Core backend API and Blazor WebAssembly frontend for in-memory subscription management.
+- Phase 2: wire the frontend to the backend, verify add/list functionality, and ensure port/CORS configuration is correct.
+- Phase 3: implement Extended-MVP feed fetching and item display while keeping components and services modular.
+- Phase 4: add persistence and more advanced quality safeguards only after the basic workflows are stable and tested.
+
+## Tasks
+
+- [ ] Configure the backend API and frontend app for local development.
+- [ ] Build the MVP subscription endpoints and Blazor UI.
+- [ ] Verify integration end-to-end in the browser with the add/list flow.
+- [ ] Keep the initial implementation minimal and document the upgrade path.
+- [ ] Add test coverage for the API contracts and UI behaviors before adding feed fetching.
+
 ## Security and quality guidance
 
 - Use strong defaults in configuration and avoid hard-coding backend URLs or CORS origins.

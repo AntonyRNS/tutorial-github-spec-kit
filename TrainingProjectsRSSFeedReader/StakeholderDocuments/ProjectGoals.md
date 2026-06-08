@@ -33,6 +33,22 @@ To keep development fast:
 - Store subscriptions in memory only (simplest approach)
 - Keep the UI simple and functional rather than polished
 
+## Project plan
+
+1. Build the core subscription workflow: a backend API for adding/listing subscriptions plus a Blazor UI for user input and display.
+2. Verify the MVP by confirming that subscriptions can be added and appear immediately in the list.
+3. Validate local development configuration, including ports, CORS, and frontend/backend integration.
+4. After MVP completion, move to Extended-MVP: add manual feed refresh, feed parsing, and item display.
+5. Reserve persistence, deletion, and advanced error handling for later phases once the basic workflow is stable.
+
+## Tasks
+
+- [ ] Create backend endpoints for adding subscriptions and retrieving subscription lists.
+- [ ] Build the frontend subscription entry form and subscription list display.
+- [ ] Wire the frontend to the backend and verify the add/list flow.
+- [ ] Confirm port configuration and CORS settings for local development.
+- [ ] Document the MVP scope and defer feed fetching/persistence until later phases.
+
 ## What "MVP working" means
 
 The MVP is complete when:

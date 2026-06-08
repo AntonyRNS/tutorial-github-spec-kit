@@ -67,6 +67,14 @@ After developing a successful Extended-MVP app, the following features could be 
 - No HTTP client needed for MVP
 - Focus on basic UI and state management
 
+## Tasks
+
+- [ ] Implement in-memory subscription storage and retrieval.
+- [ ] Build the UI for adding subscriptions and showing the subscription list.
+- [ ] Keep the MVP behavior simple: add-only flow, immediate list updates, no feed fetching.
+- [ ] Add tests for subscription workflows to preserve correctness across changes.
+- [ ] Plan Extended-MVP work without expanding the current scope prematurely.
+
 ## Security, maintainability, and quality
 
 - Implement the MVP in small, testable increments and refactor before adding feed fetching or persistence.
